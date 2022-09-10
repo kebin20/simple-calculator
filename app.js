@@ -85,7 +85,7 @@ function calculate() {
     valueOne -= valueTwo;
   } else if (operatorValue === "÷") {
     valueOne /= valueTwo;
-  } else if (operatorValue === "X") {
+  } else if (operatorValue === "x") {
     valueOne *= valueTwo;
   }
 
