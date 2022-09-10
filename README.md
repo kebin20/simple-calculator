@@ -27,6 +27,8 @@ Attempts:
 
 Functions that I want to include: 
 
+- Being able to use the keyboard to enter the numbers
+
 - Reset the calculator by pressing any number buttons once the calculation has been made 
 
 - Giving the function of being able to further calculate from the result after adding an operator to the caclulated result.
