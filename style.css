@@ -89,11 +89,57 @@ body {
     box-shadow: inset 0.5px 0.5px 1px white, 1px 3px 1px 0.5px grey;
     background-color: #A593C6;
   }
-  @media screen and (max-width: 800px) {
+  @media screen and (min-width: 600px) {
     body {
       height: 90vh; 
       width:  99vw; 
+      font-size: 1em;
     }
+
+span, .result {
+    font-size: 2em;
+}
+
+    .container {
+      height: 630px;
+      width: 400px;
+      padding: 0.5em;
+      border-radius: 40px;
+  }
+  
+  .result-container {
+      height: 7em;
+      font-size: 1em;
+  }
+  
+  button.number {
+      height: 4em;
+      width: 4em;
+      margin: 4px;
+  }
+  
+  button.operator {
+      height: 4em;
+      width: 4em;
+  }
+  
+  button.clear {
+      height: 4em;
+      width: 4em;
+  }
+  
+  button.decimal {
+      height: 4em;
+      width: 4em;
+  }
+  
+  button.equal {
+      height: 3em;
+      width: 11em;
+      margin-top: 1em;
+      margin-bottom: 1em;
+  }
+
   }
 
   /* CSS HEX

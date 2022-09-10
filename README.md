@@ -25,6 +25,7 @@ Attempts:
 - I tried to attempt to use a switch statement for the calculation, but it didn't calculate properly.
 
 
+
 Functions that I want to include: 
 
 - Being able to use the keyboard to enter the numbers
