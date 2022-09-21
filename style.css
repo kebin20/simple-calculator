@@ -1,155 +1,155 @@
 body {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    height: 90vh; 
-    width:  99vw; 
-    margin-top: 0 auto;
-    background-color: #94B59Fff;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
-  
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 90vh; 
+  width:  99vw; 
+  margin-top: 0 auto;
+  background-color: #94B59Fff;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+
 .calculation-screen {
-  margin-top: 5px;
-  margin-right: 15px;
+margin-top: 5px;
+margin-right: 15px;
 }
 
 .result {
-  margin-right: 15px;
+margin-right: 15px;
 }
 
-  .container {
-    border: none;
-    height: 340px;
-    width: 220px;
-    background-color: #BCB0D5ff;
-    border-radius: 25px;
-    /* box-shadow: inset 0.2px 0.5px 0.5px white, 0.5px 1px 0px 1px grey; */
-    box-shadow: inset 0.5px 0.5px 1px white, 1px 2px 1px 0.5px grey;
+.container {
+  border: none;
+  height: 340px;
+  width: 220px;
+  background-color: #BCB0D5ff;
+  border-radius: 25px;
+  /* box-shadow: inset 0.2px 0.5px 0.5px white, 0.5px 1px 0px 1px grey; */
+  box-shadow: inset 0.5px 0.5px 1px white, 1px 2px 1px 0.5px grey;
 }
-  
-  .result-container {
-      display: flex;
-      flex-direction: column;
-      align-items: flex-end;
-      height: 60px;
-      margin: 21px;
-      border-radius: 18px;
-      /* box-shadow: inset 0.2px 0.5px grey; */
-      box-shadow: inset 0.5px 0.5px 1px white, 1px 1.5px 1px 0.5px grey;
-      background-color: #EEEDEDff;;
-  }
-  
-  .result {
-    margin-top: 3px;
-    margin-bottom: 15px;
-  }
-  
-  .nbr-buttons {
+
+.result-container {
     display: flex;
     flex-direction: column;
-    align-items: center;
-    margin-top: 15px;
-  }
-  
-  .operator {
-    background-color: #FDEE87;
-  }
+    align-items: flex-end;
+    height: 60px;
+    margin: 21px;
+    border-radius: 18px;
+    /* box-shadow: inset 0.2px 0.5px grey; */
+    box-shadow: inset 0.5px 0.5px 1px white, 1px 1.5px 1px 0.5px grey;
+    background-color: #EEEDEDff;;
+}
+
+.result {
+  margin-top: 3px;
+  margin-bottom: 15px;
+}
+
+.nbr-buttons {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 15px;
+}
+
+.operator {
+  background-color: #FDEE87;
+}
 
 .clear,
 .decimal {
- background-color: #44384E;
- color: white;
-}
-
-  button {
-    border: none;
-    margin: 2px;
-    font-size: 20px;
-    text-align: center;
-    height: 40px;
-    width: 40px;
-    border-radius: 70%;
-    box-shadow: inset 0.5px 0.5px 1px white, 1px 2px 1px 0.5px grey;
-    font-family: 'M PLUS Rounded 1c', sans-serif;
-  }
-
-  button:active {
-    transform: scale(0.95);
-            /* Scaling button to 0.98 to its original size */
-            box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.24);
-            /* Lowering the shadow */
-  }
-
-  .equal {
-    border: none;
-    margin-top: 9px;
-    font-size: 20px;
-    height: 40px;
-    width: 120px;
-    border-radius: 30px;
-    box-shadow: inset 0.5px 0.5px 1px white, 1px 3px 1px 0.5px grey;
-    background-color: #A593C6;
-  }
-  @media screen and (min-width: 800px) {
-    body {
-      height: 90vh; 
-      width:  99vw; 
-      font-size: 1em;
-    }
-
-span, .result {
-    font-size: 2em;
+background-color: #44384E;
+color: white;
 }
 
 button {
+  border: none;
+  margin: 2px;
+  font-size: 1.3rem;
   text-align: center;
+  height: 40px;
+  width: 40px;
+  border-radius: 70%;
+  box-shadow: inset 0.5px 0.5px 1px white, 1px 2px 1px 0.5px grey;
+  font-family: 'M PLUS Rounded 1c', sans-serif;
 }
 
-    .container {
-      height: 630px;
-      width: 400px;
-      padding: 0.5em;
-      border-radius: 40px;
-  }
-  
-  .result-container {
-      height: 7em;
-      font-size: 1em;
-  }
-  
-  button.number {
-      height: 4em;
-      width: 4em;
-      margin: 4px;
-  }
-  
-  button.operator {
-      height: 4em;
-      width: 4em;
-  }
-  
-  button.clear {
-      height: 4em;
-      width: 4em;
-  }
-  
-  button.decimal {
-      height: 4em;
-      width: 4em;
-  }
-  
-  button.equal {
-      height: 3em;
-      width: 11em;
-      margin-top: 1em;
-      margin-bottom: 1em;
+button:active {
+  transform: scale(0.95);
+          /* Scaling button to 0.98 to its original size */
+          box-shadow: 1px 2px 1px 1px rgba(0, 0, 0, 0.24);
+          /* Lowering the shadow */
+}
+
+.equal {
+  border: none;
+  margin-top: 9px;
+  font-size: 1.3rem;
+  height: 40px;
+  width: 120px;
+  border-radius: 30px;
+  box-shadow: inset 0.5px 0.5px 1px white, 1px 3px 1px 0.5px grey;
+  background-color: #A593C6;
+}
+@media screen and (min-width: 800px) {
+  body {
+    height: 90vh; 
+    width:  99vw; 
+    font-size: 1em;
   }
 
-  }
+span, .result {
+  font-size: 2em;
+}
 
-  /* CSS HEX
+button {
+text-align: center;
+}
+
+  .container {
+    height: 630px;
+    width: 400px;
+    padding: 0.5em;
+    border-radius: 40px;
+}
+
+.result-container {
+    height: 7em;
+    font-size: 1em;
+}
+
+button.number {
+    height: 4em;
+    width: 4em;
+    margin: 4px;
+}
+
+button.operator {
+    height: 4em;
+    width: 4em;
+}
+
+button.clear {
+    height: 4em;
+    width: 4em;
+}
+
+button.decimal {
+    height: 4em;
+    width: 4em;
+}
+
+button.equal {
+    height: 3em;
+    width: 11em;
+    margin-top: 1em;
+    margin-bottom: 1em;
+}
+
+}
+
+/* CSS HEX
 --blue-bell: #BCB0D5ff;
 --cambridge-blue: #94B59Fff;
 --yellow-crayola: #FDEE87ff;
@@ -158,22 +158,22 @@ button {
 
 /* alternate */
 /* .container {
-  height: 450px;
-  width: 310px;
-  border-radius: 10%;
-  padding: 10px;
+height: 450px;
+width: 310px;
+border-radius: 10%;
+padding: 10px;
 }
 
 button {
-  height: 3em;
-  width: 3em;
+height: 3em;
+width: 3em;
 }
 
 button.equal {
-  margin-top: 20px;
-  width: 9em;
+margin-top: 20px;
+width: 9em;
 }
 
 .result-container {
-  border-radius: 50px;
+border-radius: 50px;
 } */
